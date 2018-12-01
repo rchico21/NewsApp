@@ -5,6 +5,8 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 import android.arch.persistence.room.ColumnInfo;
+import android.graphics.drawable.Drawable;
+
 
 @Entity(tableName = "news_item")
 public class NewsItem {
